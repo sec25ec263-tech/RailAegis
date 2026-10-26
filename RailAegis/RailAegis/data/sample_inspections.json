@@ -1,0 +1,273 @@
+{
+  "data_label": "SIMULATED DATA - not real railway measurements",
+  "inspections": [
+    {
+      "summary": {
+        "status": "COMPLETED",
+        "inspected_m": 500.0,
+        "track_length_m": 500.0,
+        "progress_pct": 100.0,
+        "obstacles_detected": 5,
+        "critical_detected": 2,
+        "hazards_cleared": 2,
+        "elapsed_s": 232.0,
+        "event_count": 15,
+        "mode": "scenario",
+        "seed": null,
+        "data_label": "SIMULATED DATA - not real railway measurements"
+      },
+      "events": [
+        {
+          "sim_time_s": 0.0,
+          "timestamp": "2026-01-01 08:00:00",
+          "position_m": 0.0,
+          "severity": "INFO",
+          "message": "Simulation reset. Ready (SIMULATED).",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 0.0,
+          "timestamp": "2026-01-01 08:00:00",
+          "position_m": 0.0,
+          "severity": "INFO",
+          "message": "Inspection started.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 23.0,
+          "timestamp": "2026-01-01 08:00:23",
+          "position_m": 55.0,
+          "severity": "INFO",
+          "message": "INFO obstacle detected: Loose gravel patch (simulated) at 80 m (SIMULATED)",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 43.0,
+          "timestamp": "2026-01-01 08:00:43",
+          "position_m": 81.2,
+          "severity": "INFO",
+          "message": "Passed Loose gravel patch (simulated) at 80 m.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 74.0,
+          "timestamp": "2026-01-01 08:01:14",
+          "position_m": 156.2,
+          "severity": "WARNING",
+          "message": "WARNING obstacle detected: Vibration anomaly zone (simulated) at 180 m (SIMULATED)",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 93.0,
+          "timestamp": "2026-01-01 08:01:33",
+          "position_m": 181.2,
+          "severity": "INFO",
+          "message": "Passed Vibration anomaly zone (simulated) at 180 m.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 116.0,
+          "timestamp": "2026-01-01 08:01:56",
+          "position_m": 236.2,
+          "severity": "CRITICAL",
+          "message": "CRITICAL obstacle detected: Large object on track (simulated) at 260 m (SIMULATED)",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 122.0,
+          "timestamp": "2026-01-01 08:02:02",
+          "position_m": 252.0,
+          "severity": "CRITICAL",
+          "message": "HAZARD: robot halted 8 m before Large object on track (simulated). Operator action needed (SIMULATED).",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 122.0,
+          "timestamp": "2026-01-01 08:02:02",
+          "position_m": 252.0,
+          "severity": "INFO",
+          "message": "Operator cleared simulated hazard. Resuming.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 153.0,
+          "timestamp": "2026-01-01 08:02:33",
+          "position_m": 327.0,
+          "severity": "WARNING",
+          "message": "WARNING obstacle detected: Rail-gap anomaly (simulated) at 350 m (SIMULATED)",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 171.0,
+          "timestamp": "2026-01-01 08:02:51",
+          "position_m": 350.8,
+          "severity": "INFO",
+          "message": "Passed Rail-gap anomaly (simulated) at 350 m.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 198.0,
+          "timestamp": "2026-01-01 08:03:18",
+          "position_m": 415.8,
+          "severity": "CRITICAL",
+          "message": "CRITICAL obstacle detected: Fallen branch (simulated) at 440 m (SIMULATED)",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 204.0,
+          "timestamp": "2026-01-01 08:03:24",
+          "position_m": 432.0,
+          "severity": "CRITICAL",
+          "message": "HAZARD: robot halted 8 m before Fallen branch (simulated). Operator action needed (SIMULATED).",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 204.0,
+          "timestamp": "2026-01-01 08:03:24",
+          "position_m": 432.0,
+          "severity": "INFO",
+          "message": "Operator cleared simulated hazard. Resuming.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 232.0,
+          "timestamp": "2026-01-01 08:03:52",
+          "position_m": 500.0,
+          "severity": "INFO",
+          "message": "Inspection of virtual track complete (SIMULATED).",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        }
+      ]
+    },
+    {
+      "summary": {
+        "status": "COMPLETED",
+        "inspected_m": 400,
+        "track_length_m": 400,
+        "progress_pct": 100.0,
+        "obstacles_detected": 5,
+        "critical_detected": 1,
+        "hazards_cleared": 1,
+        "elapsed_s": 200.0,
+        "event_count": 14,
+        "mode": "random",
+        "seed": 7,
+        "data_label": "SIMULATED DATA - not real railway measurements"
+      },
+      "events": [
+        {
+          "sim_time_s": 0.0,
+          "timestamp": "2026-01-01 08:00:00",
+          "position_m": 0.0,
+          "severity": "INFO",
+          "message": "Simulation reset. Ready (SIMULATED).",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 0.0,
+          "timestamp": "2026-01-01 08:00:00",
+          "position_m": 0.0,
+          "severity": "INFO",
+          "message": "Inspection started.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 24.0,
+          "timestamp": "2026-01-01 08:00:24",
+          "position_m": 57.5,
+          "severity": "INFO",
+          "message": "INFO obstacle detected: Debris (simulated) at 81 m (SIMULATED)",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 42.0,
+          "timestamp": "2026-01-01 08:00:42",
+          "position_m": 81.2,
+          "severity": "INFO",
+          "message": "Passed Debris (simulated) at 81 m.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 58.0,
+          "timestamp": "2026-01-01 08:00:58",
+          "position_m": 118.8,
+          "severity": "CRITICAL",
+          "message": "CRITICAL obstacle detected: Debris (simulated) at 142 m (SIMULATED)",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 64.0,
+          "timestamp": "2026-01-01 08:01:04",
+          "position_m": 134.0,
+          "severity": "CRITICAL",
+          "message": "HAZARD: robot halted 8 m before Debris (simulated). Operator action needed (SIMULATED).",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 64.0,
+          "timestamp": "2026-01-01 08:01:04",
+          "position_m": 134.0,
+          "severity": "INFO",
+          "message": "Operator cleared simulated hazard. Resuming.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 89.0,
+          "timestamp": "2026-01-01 08:01:29",
+          "position_m": 194.0,
+          "severity": "INFO",
+          "message": "INFO obstacle detected: Rail-gap anomaly (simulated) at 217 m (SIMULATED)",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 107.0,
+          "timestamp": "2026-01-01 08:01:47",
+          "position_m": 217.8,
+          "severity": "INFO",
+          "message": "Passed Rail-gap anomaly (simulated) at 217 m.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 114.0,
+          "timestamp": "2026-01-01 08:01:54",
+          "position_m": 232.8,
+          "severity": "INFO",
+          "message": "INFO obstacle detected: Vibration anomaly zone (simulated) at 257 m (SIMULATED)",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 133.0,
+          "timestamp": "2026-01-01 08:02:13",
+          "position_m": 257.8,
+          "severity": "INFO",
+          "message": "Passed Vibration anomaly zone (simulated) at 257 m.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 149.0,
+          "timestamp": "2026-01-01 08:02:29",
+          "position_m": 295.2,
+          "severity": "WARNING",
+          "message": "WARNING obstacle detected: Vibration anomaly zone (simulated) at 319 m (SIMULATED)",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 168.0,
+          "timestamp": "2026-01-01 08:02:48",
+          "position_m": 320.2,
+          "severity": "INFO",
+          "message": "Passed Vibration anomaly zone (simulated) at 319 m.",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        },
+        {
+          "sim_time_s": 200.0,
+          "timestamp": "2026-01-01 08:03:20",
+          "position_m": 400,
+          "severity": "INFO",
+          "message": "Inspection of virtual track complete (SIMULATED).",
+          "data_label": "SIMULATED DATA - not real railway measurements"
+        }
+      ]
+    }
+  ]
+}
